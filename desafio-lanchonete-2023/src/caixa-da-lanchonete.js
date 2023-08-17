@@ -47,7 +47,7 @@ class CaixaDaLanchonete {
             default:
                 return "Forma de pagamento inválida!";
         }
-        console.log("Total da compra: " + valor);
+       
 
         return `Total da Compra: R$ ${valor.toFixed(2)}`;
     }

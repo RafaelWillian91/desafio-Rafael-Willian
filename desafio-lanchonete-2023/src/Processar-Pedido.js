@@ -38,7 +38,7 @@ class CaixaController{
                 sair = true;
                 break stopWhile;
             }
-            
+        
             //Verificando se existe o item principal cafe
             validacao:
             if(item.toLowerCase() === 'chantily'){
